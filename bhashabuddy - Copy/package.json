@@ -1,0 +1,12 @@
+{
+  "name": "bhashabuddy",
+  "version": "2.0.0",
+  "description": "Learn technical English in Telugu, Hindi or Tamil. Node.js + SQLite backend, modular ES-module frontend.",
+  "type": "module",
+  "private": true,
+  "engines": { "node": ">=22.5" },
+  "scripts": {
+    "start": "node --no-warnings server/index.js",
+    "test": "node --no-warnings --test"
+  }
+}
